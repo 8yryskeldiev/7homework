@@ -1,6 +1,6 @@
 package com.company;
 
 public  abstract class Player {
-    int health;
-    int damage;
+   private int health;
+    private int damage;
 }

@@ -1,6 +1,8 @@
 package com.company;
 
-import com.company.Player;
-
-public class Magical extends Player {
+public class Magical extends  Hero implements  Applicable {
+    @Override
+    public void applySuperAbility() {
+        System.out.println("Warrior applies magical super Ability");
+    }
 }
